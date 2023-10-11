@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <com.example.custombutton.CustomButton
+        android:id="@+id/customButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Disabled Button"
+        android:gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        app:textColor="#909799"/>
+
+    <com.example.custombutton.CustomButton
+        android:id="@+id/customButton2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Pressed Button"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        app:textColor="@color/white"/>
+
+    <com.example.custombutton.CustomButton
+        android:id="@+id/customButton3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Focused Button"
+        android:gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        app:textColor="@color/white"/>
+
+    <com.example.custombutton.CustomButton
+        android:id="@+id/customButton4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Hovered Button"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        app:textColor="@color/white"/>
+
+    <com.example.custombutton.CustomButton
+        android:id="@+id/customButton5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Enabled Button"
+        app:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
